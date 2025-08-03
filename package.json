@@ -1,0 +1,23 @@
+{
+  "name": "practice-supabase",
+  "version": "1.0.0",
+  "description": "Practice Supabase.",
+  "homepage": "https://github.com/coder-muhammad/practice-supabase-js#readme",
+  "bugs": {
+    "url": "https://github.com/coder-muhammad/practice-supabase-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coder-muhammad/practice-supabase-js.git"
+  },
+  "license": "ISC",
+  "author": "Muhammad Ali",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.53.0"
+  }
+}
