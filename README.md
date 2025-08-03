@@ -1,0 +1,1 @@
+Practice Supabase with JavaScript
