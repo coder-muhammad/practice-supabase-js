@@ -12,9 +12,10 @@
   },
   "license": "ISC",
   "author": "Muhammad Ali",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
