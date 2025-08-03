@@ -8,3 +8,10 @@ const { data, error } = await supabase
   .select()
 console.log('Data:', data);
 console.log('Error:', error);
+
+
+const {error1} = await supabase
+  .from('countries')
+  .insert({id: 1, name: 'Mordor'})
+
+console.log('Insert Error:', error1);
